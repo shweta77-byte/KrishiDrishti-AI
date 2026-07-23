@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
-from backend.predictor import predict
+from predictor import predict
 
 app = FastAPI(
     title="KrishiDrishti AI",
