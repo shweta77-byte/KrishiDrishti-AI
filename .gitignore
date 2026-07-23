@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+app/node_modules/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+app/dist/
+build/
+
+
+# Python notebooks
+.ipynb_checkpoints/
+dataset/
