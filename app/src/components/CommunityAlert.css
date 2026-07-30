@@ -1,0 +1,25 @@
+.community-card{
+
+background:white;
+
+margin-top:25px;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.community-item{
+
+padding:15px;
+
+margin-top:15px;
+
+background:#f8fafc;
+
+border-radius:12px;
+
+}

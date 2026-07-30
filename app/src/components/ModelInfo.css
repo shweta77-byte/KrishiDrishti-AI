@@ -1,0 +1,48 @@
+.model-card{
+
+    margin-top:30px;
+
+    background:#f8fafc;
+
+    padding:25px;
+
+    border-radius:16px;
+
+}
+
+
+.model-card h2{
+
+    color:#166534;
+
+}
+
+
+.model-grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+
+.model-grid div{
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:12px;
+
+}
+
+
+.model-grid h3{
+
+    color:#166534;
+
+}

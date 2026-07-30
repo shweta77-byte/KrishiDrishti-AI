@@ -1,0 +1,47 @@
+.action-card{
+
+background:white;
+
+margin-top:25px;
+
+padding:30px;
+
+border-radius:20px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.risk-banner{
+
+color:white;
+
+padding:15px;
+
+font-size:20px;
+
+font-weight:bold;
+
+border-radius:12px;
+
+margin:20px 0;
+
+text-align:center;
+
+}
+
+.action-card ul{
+
+padding-left:25px;
+
+}
+
+.action-card li{
+
+font-size:18px;
+
+margin:15px 0;
+
+line-height:1.6;
+
+}

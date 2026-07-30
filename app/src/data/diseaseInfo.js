@@ -1,42 +1,46 @@
+import { tomatoDiseases } from "./tomato";
+import { appleDiseases } from "./apple";
+import { blueberryDiseases } from "./blueberry";
+import { cherryDiseases } from "./cherry";
+import { cornDiseases } from "./corn";
+import { grapeDiseases } from "./grape";
+import { orangeDiseases } from "./orange";
+import { peachDiseases } from "./peach";
+import { pepperDiseases } from "./pepper";
+import { potatoDiseases } from "./potato";
+import { raspberryDiseases } from "./raspberry";
+import { soybeanDiseases } from "./soybean";
+import { squashDiseases } from "./squash";
+import { strawberryDiseases } from "./strawberry";
+
 export const diseaseInfo = {
 
-    "Tomato_healthy": {
-        name: "Tomato Healthy",
+    ...tomatoDiseases,
 
-        severity: "Low",
+    ...appleDiseases,
 
-        confidenceColor: "green",
+    ...blueberryDiseases,
 
-        description:
-            "The uploaded tomato leaf appears healthy with no visible signs of disease.",
+    ...cherryDiseases,
 
-        symptoms: [
-            "Bright green healthy leaves",
-            "No yellow or brown spots",
-            "No fungal growth",
-            "Normal leaf texture"
-        ],
+    ...cornDiseases,
 
-        causes: [
-            "Proper irrigation",
-            "Balanced nutrients",
-            "Healthy growing conditions",
-            "Disease-free plant"
-        ],
+    ...grapeDiseases,
 
-        treatment: [
-            "Continue regular watering",
-            "Monitor leaves weekly",
-            "Maintain balanced soil moisture",
-            "Apply fertilizer when required"
-        ],
+    ...orangeDiseases,
 
-        prevention: [
-            "Inspect plants regularly",
-            "Maintain proper spacing",
-            "Avoid waterlogging",
-            "Use healthy seeds"
-        ]
-    }
+    ...peachDiseases,
+
+    ...pepperDiseases,
+
+    ...potatoDiseases,
+
+    ...raspberryDiseases,
+
+    ...soybeanDiseases,
+
+    ...squashDiseases,
+
+    ...strawberryDiseases
 
 };
