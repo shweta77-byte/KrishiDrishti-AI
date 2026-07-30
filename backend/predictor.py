@@ -2,10 +2,11 @@ import numpy as np
 import tensorflow as tf
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+from pathlib import Path
 
-MODEL_PATH = PROJECT_ROOT / "ai-model" / "models" / "plant_disease_model.keras"
+BASE_DIR = Path(__file__).resolve().parent
 
+MODEL_PATH = BASE_DIR / "models" / "plant_disease_model.keras"
 IMAGE_SIZE = (224, 224)
 
 # Class names used during training
