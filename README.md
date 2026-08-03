@@ -88,4 +88,4 @@ npm run dev
 * Disease severity estimation
 * Treatment and fertilizer recommendations
 * Multi-language support
-* Offline prediction capability
+
